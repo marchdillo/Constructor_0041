@@ -35,4 +35,14 @@ void angka::cetakData()
     {
         cout << "  = " << arr[i] << endl;
     }
-};
+}
+
+void angka::isiData()
+{
+    for (int i = 1; i < panjang; i++)
+    {
+        cout << " = ";
+        cin >> arr[i];
+    }
+    cout << endl;
+}
